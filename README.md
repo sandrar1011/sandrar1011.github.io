@@ -3,10 +3,19 @@ by Sandra Romero
 
 I am interested in exploring the kinds of transportation insecurity in the proximity of the pipeline of affordable housing projects in Los Angeles. I would like to incorporate LA Metro GTFS data to add bus and train routes. I am basing my projects around the LAHD Affordable Housing Project List and the Transportation Index to study how the overlap. Through the data I am curious to see the trends, are projects mostly in census tracts with high transportation access? Are they in already dense areas? 
 
+Research Question: Are affordable housing projects being developed in transportation secure areas?
+
 Methodology
 The current data sets are the:  LAHD Affordable Housing Project List https://data.lacity.org/Housing-and-Real-Estate/LAHD-Affordable-Housing-Projects-List-2003-to-Pres/mymu-zi3s/about_data Transportation Index https://geohub.lacity.org/datasets/lahub::transportation-index/about 
 Regression Analysis to Find the Most Significant Data Points in the Index
 Spati
+
+Analysis & Proposal
+
+The data from the LA Transportation Index and the LA Affordable Housing Projects Pipeline both paint interesting pictures on the topics of transportation and land use. The opportunity and political will to prioritize affordable housing is noticable in the grouped projects by council district area. Council districts 1 and 8 have a huge pipeline of projects with a variety of housing types but council district 5 and 12 are not investing as much in affordable housing. The Transportation Index paints an interesting picture because of the large variance between census tracts in the city. Some areas of LA have very high and low population density leading to outliers in most of the value fields. I think the biggest hurdle will be deciding what data to remove.
+
+I am interested in combining multiple layers to compare to the census tract the housing project is situation in. Is there a way to geocode a point to an existing polygon in another layer? By adding the census tract of each project it will be easier to merge the data sets to run regressions and measure the correlation of housing projects and the transportation characteristics of the neighborhood.
+
 
 Findings
 
