@@ -1,7 +1,14 @@
 # Affordable Housing and Transportation Insecurity
 by Sandra Romero
 
-I am interested in exploring the kinds of facilities (walking and transit) are in proximity of the pipeline of affordable housing projects in Los Angeles. I would like to incorporate LA Metro GTFS data to add bus and train routes. I am mostly basing my projects around the LAHD Affordable Housing Project List and seeing what data can be tied to the area surrounding the sites. Through the data I am curious to see the trends, are projects mostly in census tracts with high transportation access? Are they in already dense areas? The current data sets are the: 2021 Walk and Bike Counts https://data.lacity.org/dataset/2021-Walk-Bike-Count/9tzi-nz7g/about_data LAHD Affordable Housing Project List https://data.lacity.org/Housing-and-Real-Estate/LAHD-Affordable-Housing-Projects-List-2003-to-Pres/mymu-zi3s/about_data Transportation Index https://geohub.lacity.org/datasets/lahub::transportation-index/about Vision Zero Prioritized Corridors https://geohub.lacity.org/datasets/ladot::vision-zero-prioritized-corridors/about
+I am interested in exploring the kinds of transportation insecurity in the proximity of the pipeline of affordable housing projects in Los Angeles. I would like to incorporate LA Metro GTFS data to add bus and train routes. I am basing my projects around the LAHD Affordable Housing Project List and the Transportation Index to study how the overlap. Through the data I am curious to see the trends, are projects mostly in census tracts with high transportation access? Are they in already dense areas? 
+
+Methodology
+The current data sets are the:  LAHD Affordable Housing Project List https://data.lacity.org/Housing-and-Real-Estate/LAHD-Affordable-Housing-Projects-List-2003-to-Pres/mymu-zi3s/about_data Transportation Index https://geohub.lacity.org/datasets/lahub::transportation-index/about 
+Regression Analysis to Find the Most Significant Data Points in the Index
+Spati
+
+Findings
 
 ## Transportation Index Regressions
 <iframe src="data:text/html;base64,PHRhYmxlIGNsYXNzPSJzaW1wbGV0YWJsZSI+DQo8dHI+DQogICAgICAgIDx0ZD5Nb2RlbDo8L3RkPiAgICAgICAgICAgICAgIDx0ZD5PTFM8L3RkPiAgICAgICAgIDx0ZD5BZGouIFItc3F1YXJlZDo8L3RkPiAgICAgPHRkPjAuOTA2PC90ZD4gIA0KPC90cj4NCjx0cj4NCiAgPHRkPkRlcGVuZGVudCBWYXJpYWJsZTo8L3RkPiAgICA8dGQ+SU5ERVhfU0NPUkU8L3RkPiAgICAgICAgICA8dGQ+QUlDOjwvdGQ+ICAgICAgICAgPHRkPjMzNDQuMTE3MjwvdGQ+DQo8L3RyPg0KPHRyPg0KICAgICAgICAgPHRkPkRhdGU6PC90ZD4gICAgICAgIDx0ZD4yMDI0LTA0LTI1IDEyOjAwPC90ZD4gICAgICAgIDx0ZD5CSUM6PC90ZD4gICAgICAgICA8dGQ+MzM3Ny45MDMwPC90ZD4NCjwvdHI+DQo8dHI+DQogICA8dGQ+Tm8uIE9ic2VydmF0aW9uczo8L3RkPiAgICAgICAgIDx0ZD45MjI8L3RkPiAgICAgICAgIDx0ZD5Mb2ctTGlrZWxpaG9vZDo8L3RkPiAgICA8dGQ+LTE2NjUuMTwvdGQ+IA0KPC90cj4NCjx0cj4NCiAgICAgICA8dGQ+RGYgTW9kZWw6PC90ZD4gICAgICAgICAgICAgIDx0ZD42PC90ZD4gICAgICAgICAgIDx0ZD5GLXN0YXRpc3RpYzo8L3RkPiAgICAgICA8dGQ+MTQ4NC48L3RkPiAgDQo8L3RyPg0KPHRyPg0KICAgICA8dGQ+RGYgUmVzaWR1YWxzOjwvdGQ+ICAgICAgICAgICA8dGQ+OTE1PC90ZD4gICAgICAgPHRkPlByb2IgKEYtc3RhdGlzdGljKTo8L3RkPiAgIDx0ZD4wLjAwPC90ZD4gICANCjwvdHI+DQo8dHI+DQogICAgICA8dGQ+Ui1zcXVhcmVkOjwvdGQ+ICAgICAgICAgICAgPHRkPjAuOTA3PC90ZD4gICAgICAgICAgICA8dGQ+U2NhbGU6PC90ZD4gICAgICAgICA8dGQ+Mi4xODQ5PC90ZD4gIA0KPC90cj4NCjwvdGFibGU+DQo8dGFibGUgY2xhc3M9InNpbXBsZXRhYmxlIj4NCjx0cj4NCiAgICAgICAgPHRkPjwvdGQ+ICAgICAgICAgPHRoPkNvZWYuPC90aD4gIDx0aD5TdGQuRXJyLjwvdGg+ICAgICA8dGg+dDwvdGg+ICAgICA8dGg+UD58dHw8L3RoPiA8dGg+WzAuMDI1PC90aD4gIDx0aD4wLjk3NV08L3RoPiANCjwvdHI+DQo8dHI+DQogIDx0aD5Qb3BTcU1pPC90aD4gICAgICAgPHRkPi0wLjAwMDA8L3RkPiAgPHRkPjAuMDAwMDwvdGQ+ICAgPHRkPi0yLjIxMzc8L3RkPiA8dGQ+MC4wMjcxPC90ZD4gPHRkPi0wLjAwMDA8L3RkPiA8dGQ+LTAuMDAwMDwvdGQ+DQo8L3RyPg0KPHRyPg0KICA8dGg+V0xLbkJLPC90aD4gICAgICAgIDx0ZD4tMC4xODczPC90ZD4gIDx0ZD4wLjAwNzQ8L3RkPiAgPHRkPi0yNS4zMjM1PC90ZD4gPHRkPjAuMDAwMDwvdGQ+IDx0ZD4tMC4yMDE5PC90ZD4gPHRkPi0wLjE3Mjg8L3RkPg0KPC90cj4NCjx0cj4NCiAgPHRoPk1ldHJvPC90aD4gICAgICAgICA8dGQ+LTAuMDAwMjwvdGQ+ICA8dGQ+MC4wMDAwPC90ZD4gIDx0ZD4tMjEuMjE1NzwvdGQ+IDx0ZD4wLjAwMDA8L3RkPiA8dGQ+LTAuMDAwMjwvdGQ+IDx0ZD4tMC4wMDAxPC90ZD4NCjwvdHI+DQo8dHI+DQogIDx0aD5JTlRSU0NfRDwvdGg+ICAgICAgPHRkPi0wLjAxOTY8L3RkPiAgPHRkPjAuMDAwODwvdGQ+ICA8dGQ+LTI2LjEyMjk8L3RkPiA8dGQ+MC4wMDAwPC90ZD4gPHRkPi0wLjAyMTE8L3RkPiA8dGQ+LTAuMDE4MjwvdGQ+DQo8L3RyPg0KPHRyPg0KICA8dGg+QktfTE5fTWk8L3RoPiAgICAgIDx0ZD4tMi4xMDY2PC90ZD4gIDx0ZD4wLjA1NjE8L3RkPiAgPHRkPi0zNy41ODMyPC90ZD4gPHRkPjAuMDAwMDwvdGQ+IDx0ZD4tMi4yMTY2PC90ZD4gPHRkPi0xLjk5NjY8L3RkPg0KPC90cj4NCjx0cj4NCiAgPHRoPk1WX0JQX0hJVF8xMGs8L3RoPiA8dGQ+MC4wMDA5PC90ZD4gICA8dGQ+MC4wMDAwPC90ZD4gICA8dGQ+ODAuNjkwMjwvdGQ+IDx0ZD4wLjAwMDA8L3RkPiA8dGQ+MC4wMDA5PC90ZD4gIDx0ZD4wLjAwMDk8L3RkPiANCjwvdHI+DQo8dHI+DQogIDx0aD5JbnRlcmNlcHQ8L3RoPiAgICAgPHRkPjcyLjI2ODE8L3RkPiAgPHRkPjAuMTQ4NTwvdGQ+ICA8dGQ+NDg2LjUzMjE8L3RkPiA8dGQ+MC4wMDAwPC90ZD4gPHRkPjcxLjk3NjY8L3RkPiA8dGQ+NzIuNTU5NjwvdGQ+DQo8L3RyPg0KPC90YWJsZT4NCjx0YWJsZSBjbGFzcz0ic2ltcGxldGFibGUiPg0KPHRyPg0KICAgICA8dGQ+T21uaWJ1czo8L3RkPiAgICA8dGQ+MTA5NC4zMTY8L3RkPiAgPHRkPkR1cmJpbi1XYXRzb246PC90ZD4gICAgICA8dGQ+MS40MjU8L3RkPiAgDQo8L3RyPg0KPHRyPg0KICA8dGQ+UHJvYihPbW5pYnVzKTo8L3RkPiAgIDx0ZD4wLjAwMDwvdGQ+ICA8dGQ+SmFycXVlLUJlcmEgKEpCKTo8L3RkPiA8dGQ+MTc0MzY4LjE2MjwvdGQ+DQo8L3RyPg0KPHRyPg0KICAgICAgIDx0ZD5Ta2V3OjwvdGQ+ICAgICAgIDx0ZD41LjcyMTwvdGQ+ICAgICAgPHRkPlByb2IoSkIpOjwvdGQ+ICAgICAgICA8dGQ+MC4wMDA8L3RkPiAgDQo8L3RyPg0KPHRyPg0KICAgICA8dGQ+S3VydG9zaXM6PC90ZD4gICAgPHRkPjY5LjM5MjwvdGQ+ICAgPHRkPkNvbmRpdGlvbiBOby46PC90ZD4gICAgICA8dGQ+NzA2Njg8L3RkPiAgDQo8L3RyPg0KPC90YWJsZT48YnIvPg0KTm90ZXM6PGJyLz4NClsxXSBTdGFuZGFyZCBFcnJvcnMgYXNzdW1lIHRoYXQgdGhlIGNvdmFyaWFuY2UgbWF0cml4IG9mIHRoZSBlcnJvcnMgaXMgY29ycmVjdGx5IHNwZWNpZmllZC48YnIvPg0KWzJdIFRoZSBjb25kaXRpb24gbnVtYmVyIGlzIGxhcmdlLCA3LjA3ZSswNC4gVGhpcyBtaWdodCBpbmRpY2F0ZSAgICAgICAgICAgICAgICB0aGF0IHRoZXJlIGFyZSBzdHJvbmcgbXVsdGljb2xsaW5lYXJpdHkgb3Igb3RoZXIgbnVtZXJpY2FsICAgICAgICAgICAgICAgIHByb2JsZW1zLg==" width="100%" height="500"></iframe>
@@ -14,82 +21,7 @@ I am interested in exploring the kinds of facilities (walking and transit) are i
 
 ## Mapbox Transportation index Map
 
-<!DOCTYPE html>
-<html>
-<head>
-  <meta charset="utf-8">
-  <title>Choropleth Map</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <script src="https://api.mapbox.com/mapbox-gl-js/v2.6.1/mapbox-gl.js"></script>
-  <link href="https://api.mapbox.com/mapbox-gl-js/v2.6.1/mapbox-gl.css" rel="stylesheet">
-  <style>
-    body { margin: 0; padding: 0; }
-    #map { position: absolute; top: 0; bottom: 0; width: 100%; }
-  </style>
-</head>
-<body>
 
-<div id="map"></div>
-
-<script>
-  mapboxgl.accessToken = 'pk.eyJ1Ijoic2FuZHJhLXJvbWVyby1jYWwiLCJhIjoiY2x0ZHNwbHNmMDVqMjJtbGl1ZjNyMTBxaSJ9.te-rQ9vhlYzUvW_YuQk1AQ';
-
-  var map = new mapboxgl.Map({
-    container: 'map',
-    style: 'mapbox://styles/mapbox/light-v10',
-    center: [-118.335, 34.02],
-    zoom: 8.5
-  });
-
-  map.on('load', function() {
-    // Add Choropleth layer
-    map.addLayer({
-      id: 'choropleth-layer',
-      type: 'fill',
-      source: {
-        type: 'vector',
-        url: 'https://services5.arcgis.com/7nsPwEMP38bSkCjy/arcgis/rest/services/Transportation_Index/FeatureServer/99/query?outFields=*&where=1%3D1&f=geojson'
-      },
-      'source-layer': 'polygons',
-      paint: {
-        'fill-color': [
-          'interpolate',
-          ['linear'],
-          ['get', 'INDEX_SCORE'],
-          0, 'rgb(255,255,204)',
-          35, 'rgb(255,237,160)',
-          50, 'rgb(254,196,79)',
-          65, 'rgb(254,153,41)',
-          80, 'rgb(217,95,14)',
-          95, 'rgb(153,52,4)',
-          110, 'rgb(102,37,6)'
-        ],
-        'fill-opacity': 0.8
-      }
-    });
-
-    // Add legend
-    var legend = document.createElement('div');
-    legend.style.position = 'absolute';
-    legend.style.bottom = '30px';
-    legend.style.left = '30px';
-    legend.style.backgroundColor = 'white';
-    legend.style.padding = '10px';
-    legend.innerHTML = '<h4>Legend</h4>' +
-      '<div style="background-color: rgb(255,255,204); width: 20px; height: 20px; display: inline-block;"></div> 0-35<br>' +
-      '<div style="background-color: rgb(255,237,160); width: 20px; height: 20px; display: inline-block;"></div> 36-50<br>' +
-      '<div style="background-color: rgb(254,196,79); width: 20px; height: 20px; display: inline-block;"></div> 51-65<br>' +
-      '<div style="background-color: rgb(254,153,41); width: 20px; height: 20px; display: inline-block;"></div> 66-80<br>' +
-      '<div style="background-color: rgb(217,95,14); width: 20px; height: 20px; display: inline-block;"></div> 81-95<br>' +
-      '<div style="background-color: rgb(153,52,4); width: 20px; height: 20px; display: inline-block;"></div> 96-110<br>' +
-      '<div style="background-color: rgb(102,37,6); width: 20px; height: 20px; display: inline-block;"></div> 111+';
-    document.body.appendChild(legend);
-  });
-
-</script>
-
-</body>
-</html>
 
 
 ## Average Units by Council District and Housing Type
